@@ -1,10 +1,9 @@
 .service {
-  position: relative;
   padding: 10px;
 }
 .ellipse {
   position: absolute;
-  top: 0;
+  top: 900px;
   right: 0px;
   z-index: 0;
 }
