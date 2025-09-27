@@ -5,12 +5,11 @@
 .ellipse {
   position: absolute;
   top: 0;
-  left: 20px;
-  right: 20px;
+  right: 0px;
   z-index: 0;
 }
 .ellipse img {
-  width: 100%;
+  width: 100cqmax;
   z-index: 0;
 }
 .service_text {
@@ -27,11 +26,11 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 65px;
   margin-top: 40px;
 }
 .card {
-  width: 470px;
+  width: 450px;
   height: 386px;
   z-index: 1;
   border: 1px solid black;
