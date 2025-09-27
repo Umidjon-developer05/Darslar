@@ -1,0 +1,42 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 90px;
+  z-index: 100;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  backdrop-filter: blur(200px);
+  background: rgb(7, 9, 13);
+}
+
+.navbar_logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.navbar_links ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.navbar_links ul li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.navbar_links ul li button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  width: 132px;
+  border-radius: 10px;
+  color: white;
+  height: 42px;
+  background: linear-gradient(90.35deg, #2563eb 0.36%, #d946ef 201.02%);
+}

@@ -1,0 +1,97 @@
+.main {
+  height: 900px;
+  position: relative;
+}
+.ellipse24 {
+  position: absolute;
+  top: 100px;
+  left: -50px;
+  z-index: 0;
+}
+.ellipse24 img {
+  width: 381px;
+  z-index: 0;
+  height: 341px;
+}
+
+.ellipse21 {
+  position: absolute;
+  right: 0;
+  top: 100px;
+  z-index: 0;
+}
+
+.ellipse21 img {
+  width: 440px;
+  height: 383px;
+  z-index: 0;
+}
+.ellipse22 {
+  position: absolute;
+  left: 850px;
+  top: 100px;
+  z-index: 0;
+}
+.ellipse22 img {
+  width: 240px;
+  height: 200px;
+  z-index: 0;
+}
+
+.main_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main_right_image {
+  z-index: 1;
+}
+.main_left_content {
+  width: 100%;
+  margin-top: 44px;
+  z-index: 1;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.main_let_text {
+  margin-top: 44px;
+  background: linear-gradient(89.83deg, #2563eb 0.11%, #d946ef 58.65%);
+  letter-spacing: 2%;
+  line-height: 84px;
+  -webkit-background-clip: text;
+  font-size: 70px;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  width: 700px;
+  font-family: "DM Sans", sans-serif;
+}
+.main_para {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #6b7280;
+  line-height: 30px;
+  width: 700px;
+  font-family: "DM Sans", sans-serif;
+}
+.main_btn_group {
+  display: flex;
+  gap: 20px;
+}
+.main_btn {
+  width: 138px;
+  height: 68px;
+  background: linear-gradient(90.35deg, #2563eb 0.36%, #d946ef 201.02%);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+}
+.main_btn_play {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
